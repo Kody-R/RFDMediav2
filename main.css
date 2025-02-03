@@ -1,0 +1,163 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #002F6C; /* Royal Blue */
+}
+
+header {
+    background-color: #002F6C;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Buttons */
+.btn-primary, .btn-social, #dark-mode-toggle, .back-button {
+    background-color: #CE1126;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: background 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover, .btn-social:hover, #dark-mode-toggle:hover, .back-button:hover {
+    background-color: #002F6C; /* Royal Blue */
+}
+
+/* Back Button Specific */
+.back-button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 15px;
+    background-color: #CE1126;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+/* 🌙 Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff; /* White text for better contrast */
+}
+
+/* Header */
+.dark-mode header {
+    background-color: #1e1e1e;
+}
+
+/* Navigation */
+.dark-mode nav ul li a {
+    color: #f4f4f4;
+}
+
+/* Buttons */
+.dark-mode .btn-primary,
+.dark-mode .btn-social,
+.dark-mode #dark-mode-toggle,
+.dark-mode .back-button {
+    background-color: #5D9CEC; /* Columbia Blue */
+    color: black;
+}
+
+/* 🌙 Mission Section in Dark Mode */
+.dark-mode #mission {
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text for better readability */
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1); /* Subtle shadow for separation */
+}
+
+/* 🌙 History Section in Dark Mode */
+.dark-mode #history {
+    background-color: #1e1e1e; /* Dark background */
+    color: #ffffff; /* White text */
+    box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+/* 🌙 Cards (e.g., Team Members) */
+.dark-mode .team-container .team-member,
+.dark-mode .news-item,
+.dark-mode .gallery-item {
+    background-color: #333; /* Dark gray background for cards */
+    color: #ffffff; /* White text for readability */
+    border: 1px solid #444; /* Subtle border for separation */
+}
+
+.dark-mode .btn-primary:hover,
+.dark-mode .btn-social:hover,
+.dark-mode #dark-mode-toggle:hover,
+.dark-mode .back-button:hover {
+    background-color: #CE1126; /* Red */
+    color: white;
+}
+
+/* News Section */
+.dark-mode .news-item {
+    background-color: #333; /* Dark gray for better readability */
+    color: white;
+}
+
+/* Gallery Section */
+.dark-mode .gallery-item {
+    border-color: white; /* Make border visible in dark mode */
+}
+
+/* Articles */
+.dark-mode #article {
+    background-color: #1e1e1e;
+    color: red;
+}
+
+/* Forms */
+.dark-mode #contact-form input,
+.dark-mode #contact-form textarea {
+    background-color: #333;
+    color: white;
+    border-color: white;
+}
+
+/* Google Maps */
+.dark-mode #location iframe {
+    filter: brightness(80%);
+}
+
+/* Dark Mode Toggle Button */
+#dark-mode-toggle {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    background: #002F6C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#dark-mode-toggle:hover {
+    background: #CE1126;
+}

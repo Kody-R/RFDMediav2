@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Right Field Dawgs Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <!-- Filter Buttons -->
+    <section id="gallery-filters">
+        <button class="filter-btn" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="games">Games</button>
+        <button class="filter-btn" data-filter="players">Players</button>
+        <button class="filter-btn" data-filter="behind-scenes">Behind the Scenes</button>
+    </section>
+
+    <!-- Image Gallery -->
+    <section id="gallery">
+        <h2>Photo Gallery</h2>
+        <div class="gallery-container">
+            <img src="images/game1.jpg" alt="Game 1" class="gallery-item" data-category="games">
+            <img src="images/game2.jpg" alt="Game 2" class="gallery-item" data-category="games">
+            <img src="images/EB16.png" alt="Player 1" class="gallery-item" data-category="players">
+            <img src="images/player2.jpg" alt="Player 2" class="gallery-item" data-category="players">
+            <img src="images/behind1.jpg" alt="Behind the Scenes" class="gallery-item" data-category="behind-scenes">
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section id="videos">
+        <h2>Video Highlights</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/watch?v=3mqHONMqGU8&pp=ygUQbGEgdGVjaCBiYXNlYmFsbA%3D%3D" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/watch?v=9j-jp-61jlc" allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <a href="index.html" class="back-button">← Back to Home</a>
+
+    <script src="gallery.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+</html>

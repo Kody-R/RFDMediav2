@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Right Field Dawgs Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have questions or want to get in touch? Click the button below:</p>
+        <form id="contact-form" action="https://formsubmit.co/el/mibezi" method="POST">
+            <!-- Redirect after submission -->
+            <input type="hidden" name="_next" value="thankyou.html">
+            <!-- Ensure redirection uses GET -->
+            <!-- FormSubmit Anti-Spam -->
+            <input type="hidden" name="_captcha" value="false">
+            <button type="submit">Send Message</button>
+        </form>        
+        <p id="form-status"></p>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social-media">
+        <h2>Follow Us</h2>
+        <div class="social-links">
+            <a href="https://twitter.com/RF_Dawgs" target="_blank" class="btn-social">Twitter</a>
+            <a href="https://t.co/eZ5PWt82Mv" target="_blank" class="btn-social">Spotify</a>
+            <a href="https://www.youtube.com/@RightFieldDawgs" target="_blank" class="btn-social">YouTube</a>
+        </div>
+    </section>
+
+    <a href="index.html" class="back-button">← Back to Home</a>
+
+    <script src="darkmode.js"></script>
+    <script src="contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article - Right Field Dawgs Media</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="dark-mode-toggle">🌙 Dark Mode</button>
+    </header>
+
+    <section id="article">
+        <h1 id="article-title">Loading...</h1>
+        <p id="article-date"></p>
+        <div id="article-content">Please wait while the article loads.</div>
+        <a href="news.html" class="back-button">← Back to News</a>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <script src="load_articles.js"></script>
+    <script src="darkmode.js"></script>
+</body>
+</html>

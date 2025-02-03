@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1",
+        "title": "Louisiana Tech Wins Big!",
+        "date": "2024-02-01",
+        "summary": "Louisiana Tech secures a major victory in the season opener.",
+        "markdown": "articles/article-1.md"
+    },
+    {
+        "id": "2",
+        "title": "Top Players to Watch",
+        "date": "2024-02-02",
+        "summary": "A breakdown of the key players making an impact this season.",
+        "markdown": "articles/article-2.md"
+    }
+]
