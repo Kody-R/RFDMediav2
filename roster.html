@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roster - Right Field Dawgs Media</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="roster.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="roster.html">Roster</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="roster">
+        <h2>Louisiana Tech Baseball Roster</h2>
+        <table id="roster-table">
+            <thead>
+                <tr>
+                    <th onclick="sortTable(0)">Name 🔽</th>
+                    <th onclick="sortTable(1)">Position 🔽</th>
+                    <th onclick="sortTable(2)">AVG 🔽</th>
+                    <th onclick="sortTable(3)">HR 🔽</th>
+                    <th onclick="sortTable(4)">RBI 🔽</th>
+                    <th onclick="sortTable(5)">ERA 🔽</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Players will be loaded here dynamically -->
+            </tbody>
+        </table>
+    </section>
+    
+
+    <a href="index.html" class="back-button">← Back to Home</a>
+
+    <script src="roster.js"></script>
+</body>
+</html>

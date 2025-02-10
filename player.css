@@ -1,0 +1,36 @@
+/* Player Profile */
+#player-profile {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#player-profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+#player-profile ul {
+    list-style: none;
+    padding: 0;
+}
+
+#player-profile ul li {
+    padding: 10px;
+    font-size: 18px;
+}
+
+/* Player Highlight Video */
+#player-video {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border-radius: 10px;
+}

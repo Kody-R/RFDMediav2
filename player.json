@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "name": "John Doe",
+        "position": "Pitcher",
+        "avg": ".345",
+        "home_runs": 10,
+        "rbi": 35,
+        "era": "2.10",
+        "img": "images/EB16.png",
+        "bio": "John is a key pitcher with a 2.1 ERA and a strong strikeout rate.",
+        "highlight_video": "https://www.youtube.com/embed/3mqHONMqGU8"
+    },
+    {
+        "id": "2",
+        "name": "Mike Smith",
+        "position": "Catcher",
+        "avg": ".298",
+        "home_runs": 8,
+        "rbi": 42,
+        "era": "N/A",
+        "img": "images/mike-smith.jpg",
+        "bio": "Mike is the team's catcher, known for his strong defensive plays.",
+        "highlight_video": "https://www.youtube.com/embed/9j-jp-61jlc"
+    }
+]

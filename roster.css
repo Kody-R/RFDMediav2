@@ -1,0 +1,31 @@
+/* Roster Table */
+#roster {
+    text-align: center;
+    padding: 40px;
+}
+
+#roster-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#roster-table th, #roster-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+#roster-table th {
+    background-color: #002F6C;
+    color: white;
+    cursor: pointer;
+}
+
+#roster-table tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+#roster-table tr:hover {
+    background-color: #ddd;
+}
