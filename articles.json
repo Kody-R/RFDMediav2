@@ -8,9 +8,16 @@
     },
     {
         "id": "2",
-        "title": "Top Players to Watch",
-        "date": "2024-02-02",
-        "summary": "A breakdown of the key players making an impact this season.",
-        "markdown": "articles/article-2.md"
+        "title": "2025 Season Preview",
+        "date": "2025-02-10",
+        "summary": "A breakdown of the schedule for the 2025 season.",
+        "markdown": "articles/schedule.md"
+    },
+    {
+        "id": "3",
+        "title": "2025 Roster Preview",
+        "date": "2025-02-10",
+        "summary": "A breakdown of the roster for the 2025 season.",
+        "markdown": "articles/roster.md"
     }
 ]
