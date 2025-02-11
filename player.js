@@ -62,10 +62,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     <tr><th>AB</th><td>${playerStats.AB}</td></tr>
                     <tr><th>R</th><td>${playerStats.R}</td></tr>
                     <tr><th>H</th><td>${playerStats.H}</td></tr>
+                    <tr><th>2B</th><td>${playerStats["2B"]}</td></tr>
+                    <tr><th>3B</th><td>${playerStats["3B"]}</td></tr>
                     <tr><th>HR</th><td>${playerStats.HR}</td></tr>
                     <tr><th>RBI</th><td>${playerStats.RBI}</td></tr>
                     <tr><th>SLG%</th><td>${playerStats["SLG%"]}</td></tr>
                     <tr><th>OB%</th><td>${playerStats["OB%"]}</td></tr>
+                    <tr><th>SB-ATT</th><td>${playerStats["SB-ATT"]}</td></tr>
                 `;
             } else {
                 // Pitcher Stats
@@ -76,10 +79,13 @@ document.addEventListener("DOMContentLoaded", function () {
                     <tr><th>APP-GS</th><td>${playerStats["APP-GS"]}</td></tr>
                     <tr><th>IP</th><td>${playerStats.IP}</td></tr>
                     <tr><th>H</th><td>${playerStats.H}</td></tr>
+                    <tr><th>R</th><td>${playerStats.R}</td></tr>
                     <tr><th>ER</th><td>${playerStats.ER}</td></tr>
                     <tr><th>BB</th><td>${playerStats.BB}</td></tr>
                     <tr><th>SO</th><td>${playerStats.SO}</td></tr>
                     <tr><th>B/AVG</th><td>${playerStats["B/AVG"]}</td></tr>
+                    <tr><th>WP</th><td>${playerStats.WP}</td></tr>
+                    <tr><th>HBP</th><td>${playerStats.HBP}</td></tr>
                 `;
             }
         
