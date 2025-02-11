@@ -3,46 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Roster - Right Field Dawgs Media</title>
+    <title>LA Tech Baseball Roster</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="roster.css">
-
 </head>
 <body>
     <header>
         <nav>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="news.html">News</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="news.html">News</a></li>
                 <li><a href="roster.html">Roster</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="roster">
-        <h2>Louisiana Tech Baseball Roster</h2>
-        <table id="roster-table">
-            <thead>
-                <tr>
-                    <th onclick="sortTable(0)">Name 🔽</th>
-                    <th onclick="sortTable(1)">Position 🔽</th>
-                    <th onclick="sortTable(2)">AVG 🔽</th>
-                    <th onclick="sortTable(3)">HR 🔽</th>
-                    <th onclick="sortTable(4)">RBI 🔽</th>
-                    <th onclick="sortTable(5)">ERA 🔽</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Players will be loaded here dynamically -->
-            </tbody>
-        </table>
-    </section>
-    
+    <main>
+        <h1>2025 LA Tech Baseball Roster</h1>
+        <div id="roster-container">Loading roster...</div>
+    </main>
 
-    <a href="index.html" class="back-button">← Back to Home</a>
+    <footer>
+        <p>&copy; 2025 Right Field Dawgs Media</p>
+    </footer>
 
-    <script src="roster.js"></script>
+    <script src="load_roster.js"></script>
 </body>
 </html>
