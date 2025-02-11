@@ -100,3 +100,48 @@ main {
 .back-button:hover {
     background: #0033A0;
 }
+
+/* ✅ Make stats take up more space */
+.player-stats-container {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* ✅ Side-by-Side Stats Table */
+.player-stats-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* ✅ Player Stats Table */
+.player-stats {
+    width: 300px;
+    background: white;
+    border-collapse: collapse;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ Better Table Styling */
+.player-stats th, .player-stats td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.player-stats th {
+    background: #0033A0;
+    color: white;
+}
+
+.player-stats thead th {
+    font-size: 1.2em;
+}
+
+/* ✅ Alternate Row Colors */
+.player-stats tr:nth-child(even) {
+    background: #f8f9fa;
+}
+
