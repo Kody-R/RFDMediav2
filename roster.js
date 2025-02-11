@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-    fetch("player.json")
+    fetch("players.json")
         .then(response => response.json())
         .then(players => {
             const rosterContainer = document.getElementById("roster-container");
@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             players.forEach(player => {
                 rosterHTML += `
-                    <tr>
+                    <tr class="player-row" data-id="${player.Number}">
                         <td>${player.Number}</td>
                         <td>${player.Name}</td>
                         <td>${player.Position}</td>
@@ -50,6 +50,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
             rosterHTML += `</tbody></table>`;
             rosterContainer.innerHTML = rosterHTML;
+
+            // Add click event listener to each row
+            document.querySelectorAll(".player-row").forEach(row => {
+                row.addEventListener("click", function () {
+                    const playerId = this.getAttribute("data-id");
+                    window.location.href = `player.html?id=${playerId}`;
+                });
+            });
         })
         .catch(error => console.error("Error loading roster:", error));
 });

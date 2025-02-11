@@ -9,25 +9,44 @@
 
 </head>
 <body>
-    <section id="player-profile">
-        <h2 id="player-name"></h2>
-        <img id="player-img" src="" alt="Player Image">
-        <p id="player-bio"></p>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roster.html">Roster</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h3>Stats</h3>
-        <ul>
-            <li><strong>Position:</strong> <span id="player-position"></span></li>
-            <li><strong>Batting Average:</strong> <span id="player-avg"></span></li>
-            <li><strong>Home Runs:</strong> <span id="player-hr"></span></li>
-            <li><strong>RBIs:</strong> <span id="player-rbi"></span></li>
-            <li><strong>ERA:</strong> <span id="player-era"></span></li>
-        </ul>
+    <main>
+        <div class="player-profile">
+            <div class="player-photo">
+                <img id="player-image" src="default-player.jpg" alt="Player Image">
+            </div>
+            <div class="player-details">
+                <h1 id="player-name">Loading...</h1>
+                <p id="player-info"></p>
+                <table class="player-stats">
+                    <tr><th>Position</th><td id="player-position"></td></tr>
+                    <tr><th>Height</th><td id="player-height"></td></tr>
+                    <tr><th>Weight</th><td id="player-weight"></td></tr>
+                    <tr><th>B/T</th><td id="player-bats-throws"></td></tr>
+                    <tr><th>Class</th><td id="player-class"></td></tr>
+                    <tr><th>Hometown</th><td id="player-hometown"></td></tr>
+                    <tr><th>Previous School</th><td id="player-previous-school"></td></tr>
+                </table>
+                <div id="player-social"></div>
+            </div>
+        </div>
 
-        <h3>Highlight Video</h3>
-        <iframe id="player-video" width="560" height="315" frameborder="0" allowfullscreen></iframe>
-    </section>
+        <div id="player-highlight"></div>
 
-    <a href="roster.html" class="back-button">← Back to Roster</a>
+        <button onclick="window.history.back()" class="back-button">⬅ Back to Roster</button>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Right Field Dawgs Media</p>
+    </footer>
 
     <script src="player.js"></script>
 </body>
