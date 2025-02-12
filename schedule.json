@@ -1,0 +1,450 @@
+[
+    {
+      "Date": "Feb 14 (Fri)",
+      "Time": "4 pm",
+      "At": "Home",
+      "Opponent": "Maine",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Feb 15 (Sat)",
+      "Time": "Noon",
+      "At": "Home",
+      "Opponent": "Maine",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Feb 15 (Sat)",
+      "Time": "3 pm",
+      "At": "Home",
+      "Opponent": "Maine",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Feb 16 (Sun)",
+      "Time": "1 pm",
+      "At": "Home",
+      "Opponent": "Maine",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Feb 21 (Fri)",
+      "Time": "6 pm",
+      "At": "Away",
+      "Opponent": "Southern Miss",
+      "Location": "Hattiesburg, MS",
+      "Result": ""
+    },
+    {
+      "Date": "Feb 22 (Sat)",
+      "Time": "2 pm",
+      "At": "Away",
+      "Opponent": "Southern Miss",
+      "Location": "Hattiesburg, MS",
+      "Result": ""
+    },
+    {
+      "Date": "Feb 23 (Sun)",
+      "Time": "1 pm",
+      "At": "Away",
+      "Opponent": "Southern Miss",
+      "Location": "Hattiesburg, MS",
+      "Result": ""
+    },
+    {
+      "Date": "Feb 25 (Tue)",
+      "Time": "4 pm",
+      "At": "Home",
+      "Opponent": "Lamar",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Feb 28 (Fri)",
+      "Time": "4 pm",
+      "At": "Home",
+      "Opponent": "Memphis",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 1 (Sat)",
+      "Time": "2 pm",
+      "At": "Home",
+      "Opponent": "Memphis",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 2 (Sun)",
+      "Time": "1 pm",
+      "At": "Home",
+      "Opponent": "Memphis",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 4 (Tue)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "Nicholls",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 5 (Wed)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "Nicholls",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 7 (Fri)",
+      "Time": "4 pm",
+      "At": "Home",
+      "Opponent": "South Alabama",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 8 (Sat)",
+      "Time": "Noon",
+      "At": "Home",
+      "Opponent": "South Alabama",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 9 (Sun)",
+      "Time": "1 pm",
+      "At": "Home",
+      "Opponent": "South Alabama",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 12 (Wed)",
+      "Time": "6:30pm",
+      "At": "Away",
+      "Opponent": "Oklahoma",
+      "Location": "Norman, OK",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 14 (Fri)",
+      "Time": "6 pm",
+      "At": "Away",
+      "Opponent": "Wichita State",
+      "Location": "Wichita, KS",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 15 (Sat)",
+      "Time": "2 pm",
+      "At": "Away",
+      "Opponent": "Wichita State",
+      "Location": "Wichita, KS",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 16 (Sun)",
+      "Time": "1 pm",
+      "At": "Away",
+      "Opponent": "Wichita State",
+      "Location": "Wichita, KS",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 18 (Tue)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "ULM",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 21 (Fri)",
+      "Time": "6:30 pm",
+      "At": "Away",
+      "Opponent": "Sam Houston",
+      "Location": "Huntsville, TX",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 22 (Sat)",
+      "Time": "2 pm",
+      "At": "Away",
+      "Opponent": "Sam Houston",
+      "Location": "Huntsville, TX",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 23 (Sun)",
+      "Time": "12 pm",
+      "At": "Away",
+      "Opponent": "Sam Houston",
+      "Location": "Huntsville, TX",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 25 (Tue)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "Grambling State",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 28 (Fri)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "Kennesaw State",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 29 (Sat)",
+      "Time": "2 pm",
+      "At": "Home",
+      "Opponent": "Kennesaw State",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Mar 30 (Sun)",
+      "Time": "1 pm",
+      "At": "Home",
+      "Opponent": "Kennesaw State",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 1 (Tue)",
+      "Time": "6:30 pm",
+      "At": "Away",
+      "Opponent": "LSU",
+      "Location": "Baton Rouge, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 2 (Wed)",
+      "Time": "6 pm",
+      "At": "Away",
+      "Opponent": "UL-Lafayette",
+      "Location": "Lafayette, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 4 (Fri)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "FIU",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 5 (Sat)",
+      "Time": "2 pm",
+      "At": "Home",
+      "Opponent": "FIU",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 6 (Sun)",
+      "Time": "1 pm",
+      "At": "Home",
+      "Opponent": "FIU",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 9 (Wed)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "UL-Lafayette",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 11 (Fri)",
+      "Time": "6 pm",
+      "At": "Away",
+      "Opponent": "Middle Tennessee",
+      "Location": "Murfreesboro, TN",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 12 (Sat)",
+      "Time": "4 pm",
+      "At": "Away",
+      "Opponent": "Middle Tennessee",
+      "Location": "Murfreesboro, TN",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 13 (Sun)",
+      "Time": "1 pm",
+      "At": "Away",
+      "Opponent": "Middle Tennessee",
+      "Location": "Murfreesboro, TN",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 15 (Tue)",
+      "Time": "6 pm",
+      "At": "Away",
+      "Opponent": "ULM",
+      "Location": "Monroe, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 17 (Thu)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "Liberty",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 18 (Fri)",
+      "Time": "2 pm",
+      "At": "Home",
+      "Opponent": "Liberty",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 19 (Sat)",
+      "Time": "1 pm",
+      "At": "Home",
+      "Opponent": "Liberty",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 23 (Wed)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "ULM",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 25 (Fri)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "Dallas Baptist",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 26 (Sat)",
+      "Time": "2 pm",
+      "At": "Home",
+      "Opponent": "Dallas Baptist",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 27 (Sun)",
+      "Time": "1 pm",
+      "At": "Home",
+      "Opponent": "Dallas Baptist",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 29 (Tue)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "Arkansas-Pine Bluff",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "Apr 30 (Wed)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "Arkansas-Pine Bluff",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "May 2 (Fri)",
+      "Time": "6 pm",
+      "At": "Away",
+      "Opponent": "WKU",
+      "Location": "Bowling Green, KY",
+      "Result": ""
+    },
+    {
+      "Date": "May 3 (Sat)",
+      "Time": "4 pm",
+      "At": "Away",
+      "Opponent": "WKU",
+      "Location": "Bowling Green, KY",
+      "Result": ""
+    },
+    {
+      "Date": "May 4 (Sun)",
+      "Time": "1 pm",
+      "At": "Away",
+      "Opponent": "WKU",
+      "Location": "Bowling Green, KY",
+      "Result": ""
+    },
+    {
+      "Date": "May 9 (Fri)",
+      "Time": "6 pm",
+      "At": "Away",
+      "Opponent": "Jacksonville State",
+      "Location": "Jacksonville, AL",
+      "Result": ""
+    },
+    {
+      "Date": "May 10 (Sat)",
+      "Time": "6 pm",
+      "At": "Away",
+      "Opponent": "Jacksonville State",
+      "Location": "Jacksonville, AL",
+      "Result": ""
+    },
+    {
+      "Date": "May 11 (Sun)",
+      "Time": "1 pm",
+      "At": "Away",
+      "Opponent": "Jacksonville State",
+      "Location": "Jacksonville, AL",
+      "Result": ""
+    },
+    {
+      "Date": "May 15 (Thu)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "New Mexico State",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "May 16 (Fri)",
+      "Time": "6 pm",
+      "At": "Home",
+      "Opponent": "New Mexico State",
+      "Location": "Ruston, LA",
+      "Result": ""
+    },
+    {
+      "Date": "May 17 (Sat)",
+      "Time": "Noon",
+      "At": "Home",
+      "Opponent": "New Mexico State",
+      "Location": "Ruston, LA",
+      "Result": ""
+    }
+  ]
