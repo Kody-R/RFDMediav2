@@ -34,7 +34,7 @@ nav ul li a {
 
 /* Hero Section */
 #hero {
-    background: url('images/baseball-hero.jpg') center/cover no-repeat;
+    background: url('images/baseball_hero.png') center/cover no-repeat;
     text-align: center;
     color: #002F6C;
     padding: 100px 20px;

@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
         document.getElementById("player-previous-school").innerText = player["Previous School"] || "N/A";
 
         // Player Image (if available)
-        document.getElementById("player-image").src = player.Image || "default-player.jpg";
+        document.getElementById("player-image").src = player.Image || "images/default.png";
 
         // Social Media Links
         document.getElementById("player-social").innerHTML = `
