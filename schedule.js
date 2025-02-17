@@ -3,15 +3,23 @@ document.addEventListener("DOMContentLoaded", function () {
         .then(response => response.json())
         .then(games => {
             let tableBody = document.getElementById("schedule-body");
-            tableBody.innerHTML = games.map(game => `
-                <tr>
-                    <td>${game.Date}</td>
-                    <td>${game.Opponent}</td>
-                    <td>${game.Location}</td>
-                    <td>${game.Time}</td>
-                    <td>${game.Result || "TBD"}</td>
-                </tr>
-            `).join("");
+            tableBody.innerHTML = games.map(game => {
+                let resultClass = "";
+                if (game.Result.startsWith("W")) {
+                    resultClass = "win";
+                } else if (game.Result.startsWith("L")) {
+                    resultClass = "loss";
+                }
+                return `
+                    <tr>
+                        <td>${game.Date}</td>
+                        <td>${game.Opponent}</td>
+                        <td>${game.Location}</td>
+                        <td>${game.Time}</td>
+                        <td class="${resultClass}">${game.Result || "TBD"}</td>
+                    </tr>
+                `;
+            }).join("");
         })
         .catch(error => console.error("Error loading schedule:", error));
 });

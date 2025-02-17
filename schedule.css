@@ -18,3 +18,15 @@ th {
 tr:nth-child(even) {
     background: #f2f2f2;
 }
+
+/* ✅ Style for Win (Green) */
+.win {
+    color: green;
+    font-weight: bold;
+}
+
+/* ✅ Style for Loss (Red) */
+.loss {
+    color: red;
+    font-weight: bold;
+}
