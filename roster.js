@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
             document.querySelectorAll(".player-row").forEach(row => {
                 row.addEventListener("click", function () {
                     const playerId = this.getAttribute("data-id");
-                    window.location.href = `player.html?id=${playerId}`;
+                    window.location.href = `player.html?number=${playerId}`;
                 });
             });
         })
