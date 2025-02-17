@@ -1,7 +1,7 @@
 {
     "position_players": [
         {
-            "#": "7",
+            "Number": "7",
             "Player": "Ballard, Michael",
             "AVG": ".533",
             "OPS": "1.533",
@@ -25,7 +25,7 @@
             "SB-ATT": "1-1"
           },
           {
-            "#": "5",
+            "Number": "5",
             "Player": "Berkley, Garrison",
             "AVG": ".385",
             "OPS": "1.171",
@@ -49,7 +49,7 @@
             "SB-ATT": "1-1"
           },
           {
-            "#": "9",
+            "Number": "9",
             "Player": "Coates , Colton",
             "AVG": ".313",
             "OPS": ".859",
@@ -73,7 +73,7 @@
             "SB-ATT": "1-1"
           },
           {
-            "#": "3",
+            "Number": "3",
             "Player": "Safford, Will",
             "AVG": ".300",
             "OPS": ".863",
@@ -97,7 +97,7 @@
             "SB-ATT": "2-2"
           },
           {
-            "#": "44",
+            "Number": "44",
             "Player": "Berch, Eli",
             "AVG": ".300",
             "OPS": ".862",
@@ -121,7 +121,7 @@
             "SB-ATT": "0-0"
           },
           {
-            "#": "24",
+            "Number": "24",
             "Player": "Mexico, Sebastian",
             "AVG": ".250",
             "OPS": ".830",
@@ -145,7 +145,7 @@
             "SB-ATT": "0-0"
           },
           {
-            "#": "14",
+            "Number": "14",
             "Player": "Comeaux, Grant",
             "AVG": ".231",
             "OPS": ".606",
@@ -169,7 +169,7 @@
             "SB-ATT": "0-0"
           },
           {
-            "#": "18",
+            "Number": "18",
             "Player": "Patterson , Cade",
             "AVG": ".143",
             "OPS": ".682",
@@ -193,7 +193,7 @@
             "SB-ATT": "0-1"
           },
           {
-            "#": "50",
+            "Number": "50",
             "Player": "Hawsey, Trey",
             "AVG": ".071",
             "OPS": ".204",
@@ -217,7 +217,7 @@
             "SB-ATT": "0-0"
           },
           {
-            "#": "6",
+            "Number": "6",
             "Player": "Ruddell, Zeb",
             "AVG": ".071",
             "OPS": ".142",
@@ -241,7 +241,7 @@
             "SB-ATT": "0-0"
           },
           {
-            "#": "4",
+            "Number": "4",
             "Player": "Drost, Brody",
             "AVG": ".200",
             "OPS": "1.000",
@@ -265,7 +265,7 @@
             "SB-ATT": "0-0"
           },
           {
-            "#": "2",
+            "Number": "2",
             "Player": "Berch, Thaxton",
             "AVG": ".000",
             "OPS": ".000",
@@ -289,7 +289,7 @@
             "SB-ATT": "0-0"
           },
           {
-            "#": "29",
+            "Number": "29",
             "Player": "Houston , Matt",
             "AVG": ".000",
             "OPS": ".667",
@@ -315,7 +315,7 @@
     ],
     "pitchers": [
         {
-            "#": "12",
+            "Number": "12",
             "Player": "Cooley , Luke",
             "ERA": "0.00",
             "W-L": "1-0",
@@ -341,7 +341,7 @@
             "SHA": "0"
           },
           {
-            "#": "10",
+            "Number": "10",
             "Player": "Roberson, Brooks",
             "ERA": "0.00",
             "W-L": "0-0",
@@ -367,7 +367,7 @@
             "SHA": "0"
           },
           {
-            "#": "16",
+            "Number": "16",
             "Player": "Forsythe, Logan",
             "ERA": "0.00",
             "W-L": "0-0",
@@ -393,7 +393,7 @@
             "SHA": "0"
           },
           {
-            "#": "38",
+            "Number": "38",
             "Player": "Crider , Nate",
             "ERA": "0.00",
             "W-L": "1-0",
@@ -419,7 +419,7 @@
             "SHA": "0"
           },
           {
-            "#": "40",
+            "Number": "40",
             "Player": "Magee, Noah",
             "ERA": "0.00",
             "W-L": "0-0",
@@ -445,7 +445,7 @@
             "SHA": "0"
           },
           {
-            "#": "26",
+            "Number": "26",
             "Player": "Hooks , Blake",
             "ERA": "2.25",
             "W-L": "1-0",
@@ -471,7 +471,7 @@
             "SHA": "0"
           },
           {
-            "#": "33",
+            "Number": "33",
             "Player": "Nation, Connor",
             "ERA": "2.45",
             "W-L": "0-0",
@@ -497,7 +497,7 @@
             "SHA": "0"
           },
           {
-            "#": "32",
+            "Number": "32",
             "Player": "Nichols, Luke",
             "ERA": "2.84",
             "W-L": "0-0",
@@ -523,7 +523,7 @@
             "SHA": "0"
           },
           {
-            "#": "52",
+            "Number": "52",
             "Player": "Schexnaydre, Owen",
             "ERA": "4.50",
             "W-L": "0-0",
@@ -549,7 +549,7 @@
             "SHA": "0"
           },
           {
-            "#": "20",
+            "Number": "20",
             "Player": "Hubka, Grant",
             "ERA": "4.91",
             "W-L": "1-0",
@@ -575,7 +575,7 @@
             "SHA": "0"
           },
           {
-            "#": "39",
+            "Number": "39",
             "Player": "Harland, Ryan",
             "ERA": "9.00",
             "W-L": "0-0",
@@ -601,7 +601,7 @@
             "SHA": "0"
           },
           {
-            "#": "45",
+            "Number": "45",
             "Player": "Havern, Jacob",
             "ERA": "99.00",
             "W-L": "0-0",

@@ -1,98 +1,95 @@
 document.addEventListener("DOMContentLoaded", function () {
     const urlParams = new URLSearchParams(window.location.search);
-    const playerId = urlParams.get("id");
+    const playerNumber = urlParams.get("number");
 
-    if (!playerId) {
-        document.getElementById("player-name").innerText = "Player Not Found";
+    if (!playerNumber) {
+        console.error("No player number provided in URL");
         return;
     }
 
-    // Fetch both players.json and stats.json
     Promise.all([
-        fetch("players.json").then(response => response.json()),
-        fetch("stats.json").then(response => response.json())
+        fetch("players.json").then(res => res.json()),
+        fetch("stats.json").then(res => res.json())
     ])
     .then(([players, stats]) => {
-        const player = players.find(p => p.Number === playerId);
+        // Ensure player number is treated as a string for comparison
+        const player = players.find(p => String(p.Number) === playerNumber);
 
         if (!player) {
-            document.getElementById("player-name").innerText = "Player Not Found";
+            console.error("Player not found");
+            document.getElementById("player-name").textContent = "Player Not Found";
             return;
         }
 
-        // Update player details
-        document.getElementById("player-name").innerText = player.Name;
-        document.getElementById("player-position").innerText = player.Position;
-        document.getElementById("player-height").innerText = player.Height;
-        document.getElementById("player-weight").innerText = player.Weight;
-        document.getElementById("player-bats-throws").innerText = player.BatsThrows;
-        document.getElementById("player-class").innerText = player.Class;
-        document.getElementById("player-hometown").innerText = player.Hometown;
-        document.getElementById("player-previous-school").innerText = player["Previous School"] || "N/A";
+        // Populate player details
+        document.getElementById("player-name").textContent = player.Name;
+        document.getElementById("player-position").textContent = player.Position;
+        document.getElementById("player-height").textContent = player.Height;
+        document.getElementById("player-weight").textContent = player.Weight;
+        document.getElementById("player-bats-throws").textContent = player.BatsThrows;
+        document.getElementById("player-class").textContent = player.Class;
+        document.getElementById("player-hometown").textContent = `${player.Hometown} / ${player["High School"] || "N/A"}`;
+        document.getElementById("player-previous-school").textContent = player.PreviousSchool || "N/A";
 
-        // Player Image (if available)
-        document.getElementById("player-image").src = player.Image || "images/default.png";
+        // Set player image if available
+        const playerImage = document.getElementById("player-image");
+        playerImage.src = player.Image ? player.Image : "default.png";
 
-        // Social Media Links
-        document.getElementById("player-social").innerHTML = `
-            <div class="social-icons">
-                ${player.Twitter ? `<a href="https://twitter.com/${player.Twitter}" target="_blank">🐦 Twitter</a>` : ""}
-                ${player.Instagram ? `<a href="https://instagram.com/${player.Instagram}" target="_blank">📸 Instagram</a>` : ""}
-            </div>
-        `;
-
-        // Match player stats
-        let playerStats = stats.position_players.find(p => p.Number == playerId) ||
-                          stats.pitchers.find(p => p.Number == playerId);
-        // Inside player.js (Modify How Stats Are Inserted)
-        if (playerStats) {
-            let statsHTML = `
-                <div class="player-stats-grid"> <!-- ✅ Added Flexbox Grid -->
-                    <table class='player-stats'>
-                        <thead><tr><th colspan="2">Player Stats</th></tr></thead>
-                        <tbody>
-            `;
-        
-            if (stats.position_players.some(p => p.Number == playerId)) {
-                // Position Player Stats
-                statsHTML += `
-                    <tr><th>AVG</th><td>${playerStats.AVG}</td></tr>
-                    <tr><th>OPS</th><td>${playerStats.OPS}</td></tr>
-                    <tr><th>GP-GS</th><td>${playerStats["GP-GS"]}</td></tr>
-                    <tr><th>AB</th><td>${playerStats.AB}</td></tr>
-                    <tr><th>R</th><td>${playerStats.R}</td></tr>
-                    <tr><th>H</th><td>${playerStats.H}</td></tr>
-                    <tr><th>2B</th><td>${playerStats["2B"]}</td></tr>
-                    <tr><th>3B</th><td>${playerStats["3B"]}</td></tr>
-                    <tr><th>HR</th><td>${playerStats.HR}</td></tr>
-                    <tr><th>RBI</th><td>${playerStats.RBI}</td></tr>
-                    <tr><th>SLG%</th><td>${playerStats["SLG%"]}</td></tr>
-                    <tr><th>OB%</th><td>${playerStats["OB%"]}</td></tr>
-                    <tr><th>SB-ATT</th><td>${playerStats["SB-ATT"]}</td></tr>
-                `;
-            } else {
-                // Pitcher Stats
-                statsHTML += `
-                    <tr><th>ERA</th><td>${playerStats.ERA}</td></tr>
-                    <tr><th>WHIP</th><td>${playerStats.WHIP}</td></tr>
-                    <tr><th>W-L</th><td>${playerStats["W-L"]}</td></tr>
-                    <tr><th>APP-GS</th><td>${playerStats["APP-GS"]}</td></tr>
-                    <tr><th>IP</th><td>${playerStats.IP}</td></tr>
-                    <tr><th>H</th><td>${playerStats.H}</td></tr>
-                    <tr><th>R</th><td>${playerStats.R}</td></tr>
-                    <tr><th>ER</th><td>${playerStats.ER}</td></tr>
-                    <tr><th>BB</th><td>${playerStats.BB}</td></tr>
-                    <tr><th>SO</th><td>${playerStats.SO}</td></tr>
-                    <tr><th>B/AVG</th><td>${playerStats["B/AVG"]}</td></tr>
-                    <tr><th>WP</th><td>${playerStats.WP}</td></tr>
-                    <tr><th>HBP</th><td>${playerStats.HBP}</td></tr>
-                `;
-            }
-        
-            statsHTML += "</tbody></table></div>";
-            document.getElementById("player-stats").innerHTML = statsHTML;
+        // Populate social media links (Only show if available)
+        const socialDiv = document.getElementById("player-social");
+        let socialHTML = `<p>`;
+        if (player.Twitter) {
+            socialHTML += `<a href="https://twitter.com/${player.Twitter}" target="_blank">Twitter</a> `;
         }
+        if (player.Instagram) {
+            socialHTML += `<a href="https://instagram.com/${player.Instagram}" target="_blank">Instagram</a>`;
+        }
+        socialHTML += `</p>`;
+        socialDiv.innerHTML = socialHTML;
 
+        // Convert playerNumber to a number for comparison with stats
+        const playerNumberInt = parseInt(playerNumber, 10);
+
+        // Find matching stats in position_players or pitchers using "Number" instead of "#"
+        const positionStats = stats.position_players.find(p => parseInt(p.Number, 10) === playerNumberInt);
+        const pitcherStats = stats.pitchers.find(p => parseInt(p.Number, 10) === playerNumberInt);
+        const statsDiv = document.getElementById("player-highlight");
+
+        if (positionStats) {
+            statsDiv.innerHTML = generatePositionPlayerTable(positionStats);
+        } else if (pitcherStats) {
+            statsDiv.innerHTML = generatePitcherTable(pitcherStats);
+        } else {
+            statsDiv.innerHTML = "<p>No stats available for this player.</p>";
+        }
     })
     .catch(error => console.error("Error loading player data:", error));
 });
+
+// Helper function to generate position player stats table
+function generatePositionPlayerTable(stats) {
+    return `
+        <h2>Position Player Stats</h2>
+        <table class="player-stats-table">
+            <tr><th>AVG</th><th>OPS</th><th>GP-GS</th><th>AB</th><th>R</th><th>H</th><th>2B</th><th>3B</th><th>HR</th><th>RBI</th></tr>
+            <tr>
+                <td>${stats.AVG}</td><td>${stats.OPS}</td><td>${stats["GP-GS"]}</td><td>${stats.AB}</td><td>${stats.R}</td>
+                <td>${stats.H}</td><td>${stats["2B"]}</td><td>${stats["3B"]}</td><td>${stats.HR}</td><td>${stats.RBI}</td>
+            </tr>
+        </table>
+    `;
+}
+
+// Helper function to generate pitcher stats table
+function generatePitcherTable(stats) {
+    return `
+        <h2>Pitcher Stats</h2>
+        <table class="player-stats-table">
+            <tr><th>ERA</th><th>WHIP</th><th>W-L</th><th>APP-GS</th><th>IP</th><th>H</th><th>R</th><th>ER</th><th>BB</th><th>SO</th></tr>
+            <tr>
+                <td>${stats.ERA}</td><td>${stats.WHIP}</td><td>${stats["W-L"]}</td><td>${stats.APP}-${stats.GS}</td><td>${stats.IP}</td>
+                <td>${stats.H}</td><td>${stats.R}</td><td>${stats.ER}</td><td>${stats.BB}</td><td>${stats.SO}</td>
+            </tr>
+        </table>
+    `;
+}
