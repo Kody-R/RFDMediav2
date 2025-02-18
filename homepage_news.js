@@ -5,7 +5,10 @@ document.addEventListener("DOMContentLoaded", function () {
             const newsContainer = document.querySelector(".news-container");
             newsContainer.innerHTML = ""; // Clear existing content
 
-            articles.slice(0, 3).forEach(article => {
+            // Get the last three articles dynamically
+            const lastThreeArticles = articles.slice(-3); 
+
+            lastThreeArticles.forEach(article => {
                 const articleElement = document.createElement("div");
                 articleElement.classList.add("news-item");
 

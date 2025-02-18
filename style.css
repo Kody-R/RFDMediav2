@@ -32,23 +32,45 @@ nav ul li a {
     font-size: 1.2rem;
 }
 
-/* Hero Section */
 #hero {
+    position: relative;
     background: url('images/baseball_hero.png') center/cover no-repeat;
     text-align: center;
-    color: #002F6C;
-    padding: 100px 20px;
+    color: white;
+    height: 750px; /* Makes the hero section take the full screen height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+}
+
+
+#hero-text {
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    backdrop-filter: blur(8px); /* Increased blur effect */
+    -webkit-backdrop-filter: blur(8px); /* Safari support */
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    max-width: 80%;
 }
 
 #hero h1 {
-    font-size: 40px;
+    font-size: 50px; /* Increase the title size */
+    font-weight: bold;
     margin-bottom: 10px;
 }
 
 #hero p {
-    font-size: 20px;
+    font-size: 24px; /* Increase the subtitle size */
     margin-bottom: 20px;
 }
+
+.btn-primary {
+    font-size: 20px; /* Increase button text size */
+    padding: 15px 30px; /* Make button bigger */
+}
+
 
 .btn-primary {
     background-color: #CE1126; /* Red */
