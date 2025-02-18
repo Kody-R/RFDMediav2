@@ -19,5 +19,47 @@
         "date": "2025-02-10",
         "summary": "A breakdown of the roster for the 2025 season.",
         "markdown": "articles/roster.md"
+    },
+    {
+        "id": "4",
+        "title": "Dogs win Game 1!",
+        "date": "2025-02-14",
+        "summary": "Louisiana Tech secures a 14-3 W in the season opener.",
+        "markdown": "articles/Maine-Game-1.md"
+    },
+    {
+        "id": "5",
+        "title": "Dogs win Game 2!",
+        "date": "2025-02-15",
+        "summary": "Louisiana Tech wins the first of their Saturday Doubleheader.",
+        "markdown": "articles/Maine-Game-2.md"
+    },
+    {
+        "id": "6",
+        "title": "Dogs clinch Series Win over Maine",
+        "date": "2025-02-15",
+        "summary": "Louisiana Tech sweeps doubleheader on Saturday.",
+        "markdown": "articles/Maine-Game-3.md"
+    },
+    {
+        "id": "7",
+        "title": "Louisiana Tech SWEEPS Maine!",
+        "date": "2024-02-01",
+        "summary": "Louisiana Tech sweeps their opening series.",
+        "markdown": "articles/Maine-Game-4.md"
+    },
+    {
+        "id": "8",
+        "title": "Maine Recap",
+        "date": "2025-02-17",
+        "summary": "Full Recap of the 4 game series vs Maine.",
+        "markdown": "articles/Maine-Recap.md"
+    },
+    {
+        "id": "9",
+        "title": "Opening Weekend Stats",
+        "date": "2025-02-17",
+        "summary": "A breakdown of the stats from the opening series vs Maine.",
+        "markdown": "articles/Maine-Stats.md"
     }
 ]
