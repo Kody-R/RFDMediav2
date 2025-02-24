@@ -635,12 +635,13 @@ nav ul li a {
     /* ✅ Adjust Navigation for Mobile */
     nav ul {
         flex-direction: column;
-        text-align: center;
+        align-items: center;
     }
 
     nav ul li {
         width: 100%;
-        margin: 5px 0;
+        text-align: center;
+        padding: 10px 0;
     }
 
     /* ✅ Make Tables Scrollable on Small Screens */
@@ -659,20 +660,32 @@ nav ul li a {
     .player-profile {
         flex-direction: column;
         text-align: center;
-        padding: 10px;
     }
 
     .player-photo img {
-        width: 150px;
-        height: 150px;
+        width: 120px;
+        height: 120px;
         border-radius: 8px;
     }
 
-    /* ✅ Responsive Video Container */
-    .video-container iframe {
+    .player-stats-table {
         width: 100%;
-        height: 50vh;
     }
+
+    .video-container {
+        position: relative;
+        width: 100%;
+        padding-top: 56.25%; /* Aspect ratio for 16:9 */
+    }
+    
+    .video-container iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    
 
     /* ✅ Adjust Media Page Layout */
     .media-container {
@@ -699,19 +712,18 @@ nav ul li a {
     .search-bar {
         width: 90%;
         max-width: 500px;
-        margin: 10px auto;
         padding: 8px;
-        font-size: 1em;
+        font-size: 1.1em;
     }
 
-    /* ✅ Adjust Buttons for Mobile */
-    button, .back-button {
-        font-size: 1em;
-        padding: 10px 15px;
-        display: block;
-        width: 90%;
-        max-width: 400px;
-        margin: 10px auto;
-        text-align: center;
-    }
+        button, .back-button {
+            font-size: 1.2em;
+            padding: 12px;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            display: block;
+            margin: 10px auto;
+        }
+    
 }

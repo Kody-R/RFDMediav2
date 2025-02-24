@@ -129,6 +129,19 @@
     background: #00227A;
 }
 
+@media screen and (max-width: 768px) {
+    .video-container iframe {
+        height: 75vh; /* Keeps space for Back Button */
+    }
+
+    .back-button {
+        margin-top: 10px;
+        display: block;
+        text-align: center;
+    }
+}
+
+
 
 
 
