@@ -626,3 +626,92 @@ nav ul li a {
 #dark-mode-toggle:hover {
     background: #CE1126;
 }
+
+/* ======================= */
+/* 📱 MOBILE-SPECIFIC STYLES */
+/* ======================= */
+@media screen and (max-width: 768px) {
+
+    /* ✅ Adjust Navigation for Mobile */
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav ul li {
+        width: 100%;
+        margin: 5px 0;
+    }
+
+    /* ✅ Make Tables Scrollable on Small Screens */
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+        min-width: 600px; /* Prevents shrinking too much */
+        border-collapse: collapse;
+    }
+
+    /* ✅ Adjust Player Profiles */
+    .player-profile {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .player-photo img {
+        width: 150px;
+        height: 150px;
+        border-radius: 8px;
+    }
+
+    /* ✅ Responsive Video Container */
+    .video-container iframe {
+        width: 100%;
+        height: 50vh;
+    }
+
+    /* ✅ Adjust Media Page Layout */
+    .media-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    /* ✅ Media Cards (Videos) */
+    .media-card {
+        width: 100%;
+        max-width: 350px;
+        text-align: center;
+    }
+
+    .media-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* ✅ Make Search Bar Adjust for Mobile */
+    .search-bar {
+        width: 90%;
+        max-width: 500px;
+        margin: 10px auto;
+        padding: 8px;
+        font-size: 1em;
+    }
+
+    /* ✅ Adjust Buttons for Mobile */
+    button, .back-button {
+        font-size: 1em;
+        padding: 10px 15px;
+        display: block;
+        width: 90%;
+        max-width: 400px;
+        margin: 10px auto;
+        text-align: center;
+    }
+}
