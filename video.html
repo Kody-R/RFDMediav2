@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watch Video</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="video-container">
+        <iframe id="video-frame" src="" frameborder="0" allowfullscreen></iframe>
+        <a href="media.html" class="back-button">⬅ Back to Media</a>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Right Field Dawgs Media</p>
+    </footer>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const urlParams = new URLSearchParams(window.location.search);
+            const videoLink = urlParams.get("link");
+
+            if (videoLink) {
+                document.getElementById("video-frame").src = `https://www.youtube.com/embed/${videoLink}?autoplay=1&controls=1`;
+            } else {
+                document.body.innerHTML = "<h1>Video Not Found</h1>";
+            }
+        });
+    </script>
+
+</body>
+</html>

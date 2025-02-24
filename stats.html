@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baseball Stats Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stats.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="roster.html">Roster</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="stats.html" class="active">Stats</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1 class="page-title">Baseball Analytics Dashboard</h1>
+
+        <!-- Team Stats Section -->
+        <section class="stats-section">
+            <h2>Team Stats Overview</h2>
+            <table class="stats-table" id="team-stats-table"></table>
+        </section>
+
+        <!-- Player Stats Comparison -->
+        <section class="stats-section">
+            <h2>Compare Players</h2>
+            <select id="player1"></select>
+            <select id="player2"></select>
+            <canvas id="comparisonChart"></canvas>
+        </section>
+
+        <!-- Advanced Analytics -->
+        <section class="stats-section">
+            <h2>Advanced Metrics</h2>
+            <canvas id="advancedChart"></canvas>
+        </section>
+
+        <!-- Game-by-Game Performance -->
+        <section class="stats-section">
+            <h2>Game-by-Game Performance</h2>
+            <canvas id="performanceChart"></canvas>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Right Field Dawgs Media</p>
+    </footer>
+
+    <script src="stats.js"></script>
+</body>
+</html>

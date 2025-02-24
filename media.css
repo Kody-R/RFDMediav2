@@ -1,0 +1,134 @@
+/* ✅ Positioning Tabs and Search Bar Below the Menu */
+.search-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.search-bar {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #0033A0;
+    border-radius: 5px;
+}
+
+/* ✅ Centering Tabs Below Search Bar */
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    gap: 10px;
+}
+
+/* ✅ Styling Tab Buttons */
+.tab-button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.tab-button:hover {
+    background-color: #ccc;
+}
+
+/* ✅ Active Tab Highlight */
+.active-tab {
+    background-color: #0033A0 !important;
+    color: white;
+    font-weight: bold;
+}
+
+/* ✅ Video Grid */
+.video-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* ✅ Video Card Styling */
+.video-card {
+    width: 250px;
+    background: #ffffff;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* ✅ Hover Effect for Video Card */
+.video-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ Thumbnail Styling */
+.video-card img {
+    width: 100%;
+    border-radius: 6px;
+    transition: 0.3s;
+}
+
+/* ✅ Hover Effect for Thumbnail */
+.video-card:hover img {
+    transform: scale(1.05);
+}
+
+/* ✅ Video Title Styling (Now Below Thumbnail) */
+.video-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #0033A0; /* Louisiana Tech Blue */
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+/* ✅ Video Container - Centers Video & Button */
+.video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 90vh;
+    padding: 20px;
+    background: black;
+}
+
+/* ✅ Video Player - Responsive and Centered */
+.video-container iframe {
+    width: 85vw;  /* 85% of the viewport width */
+    height: 80vh; /* 80% of the viewport height */
+    max-width: 1280px;
+    max-height: 720px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* ✅ Back Button Below the Video */
+.back-button {
+    display: block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #0033A0;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.back-button:hover {
+    background: #00227A;
+}
+
+
+
+

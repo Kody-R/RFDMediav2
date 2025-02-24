@@ -1,0 +1,44 @@
+/* ✅ Centered Page Title */
+.page-title {
+    text-align: center;
+    margin: 20px 0;
+    color: #0033A0;
+    font-size: 2em;
+}
+
+/* ✅ Stats Section */
+.stats-section {
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* ✅ Stats Table */
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+.stats-table th, .stats-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.stats-table th {
+    background: #0033A0;
+    color: white;
+    font-weight: bold;
+}
+
+.stats-table tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* ✅ Chart Container */
+canvas {
+    max-width: 800px;
+    margin: 20px auto;
+}
