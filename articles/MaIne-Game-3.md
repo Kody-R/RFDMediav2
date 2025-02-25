@@ -14,7 +14,7 @@ Starter **Luke Cooley** delivered an outstanding performance, going five scorele
 
 Relievers **Brooks Roberson** and **Logan Forsythe** combined to shut the door over the final two innings, with Forsythe earning his first save of the season. The bullpen ensured Maine never gained momentum, keeping their hitters off balance with a mix of fastballs and breaking pitches.
 
-#### **Key Offensive Moments**
+### **Key Offensive Moments**
 
 - **First Inning:** Louisiana Tech struck first as **Michael Ballard** doubled and later scored on a wild pitch to give the Bulldogs a 1-0 lead.
 - **Third Inning:** **Grant Comeaux** delivered a clutch RBI single to extend the lead to 2-0.
@@ -24,7 +24,7 @@ Maine’s offense never found its rhythm against the dominant Bulldogs' pitching
 
 ---
 
-##### **Key Takeaways from Game 3**
+### **Key Takeaways from Game 3**
 
 - **Luke Cooley’s Stellar Outing** – The right-hander set the tone early, commanding both sides of the plate and keeping Maine hitters off balance with a mix of fastballs and off-speed pitches.
 - **Timely Hitting Helped Extend the Lead** – Louisiana Tech capitalized on their scoring opportunities, manufacturing runs efficiently and taking advantage of Maine’s mistakes.
